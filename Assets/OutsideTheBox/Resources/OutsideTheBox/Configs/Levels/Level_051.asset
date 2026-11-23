@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a7c11e713240f4aa7f68625b83332a, type: 3}
+  m_Name: Level_051
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.LevelDefinition
+  levelId: level_051
+  levelNumber: 51
+  generatorSeed: 123827
+  generatedContentVersion: 7
+  width: 10
+  height: 10
+  start:
+    x: 0
+    y: 9
+  exit:
+    x: 9
+    y: 5
+  useCustomStartingMagnet: 1
+  startingMagnet:
+    side: 1
+    index: 7
+  walls:
+  - x: 3
+    y: 5
+  - x: 3
+    y: 6
+  - x: 4
+    y: 4
+  - x: 4
+    y: 5
+  - x: 4
+    y: 7
+  - x: 4
+    y: 8
+  - x: 4
+    y: 9
+  - x: 7
+    y: 5
+  - x: 7
+    y: 6
+  - x: 7
+    y: 7
+  - x: 3
+    y: 1
+  - x: 4
+    y: 3
+  - x: 3
+    y: 3
+  - x: 4
+    y: 1
+  - x: 8
+    y: 3
+  - x: 9
+    y: 3
+  - x: 1
+    y: 3
+  - x: 1
+    y: 4
+  - x: 1
+    y: 5
+  - x: 6
+    y: 9
+  - x: 5
+    y: 9
+  - x: 7
+    y: 9
+  - x: 8
+    y: 9
+  - x: 6
+    y: 5
+  - x: 6
+    y: 8
+  - x: 6
+    y: 7
+  - x: 6
+    y: 4
+  - x: 6
+    y: 1
+  - x: 5
+    y: 1
+  - x: 1
+    y: 2
+  - x: 0
+    y: 2
+  wallSegments: []
+  gates:
+  - cell:
+      x: 0
+      y: 8
+    allowedEntryDirection: 2
+  - cell:
+      x: 0
+      y: 7
+    allowedEntryDirection: 2
+  - cell:
+      x: 0
+      y: 6
+    allowedEntryDirection: 2
+  - cell:
+      x: 1
+      y: 6
+    allowedEntryDirection: 1
+  movingWalls:
+  - center: {x: -2.5, y: 3.5}
+    length: 0.82
+    horizontal: 0
+    travel: {x: 0.28, y: 0}
+    speed: 1.2674989
+    phase: 5.807774
+  - center: {x: -2.5, y: -0.5}
+    length: 0.82
+    horizontal: 1
+    travel: {x: 0, y: 0.28}
+    speed: 0.92274314
+    phase: 2.2495427
+  - center: {x: -1.5, y: -2.5}
+    length: 0.82
+    horizontal: 0
+    travel: {x: 0.28, y: 0}
+    speed: 1.1425115
+    phase: 5.179381
+  fieldZones:
+  - center: {x: -2.5, y: 2.5}
+    radius: 0.72
+    strengthMultiplier: 0.48
+  - center: {x: -2.5, y: -2.5}
+    radius: 0.72
+    strengthMultiplier: 1.38
+  - center: {x: 1.5, y: -2.5}
+    radius: 0.72
+    strengthMultiplier: 0.48
+  - center: {x: -2.5, y: -1.5}
+    radius: 0.72
+    strengthMultiplier: 1.38
+  magneticImprints:
+  - center: {x: -1.5, y: -3.5}
+    polarity: 0
+  - center: {x: 1.5, y: -0.5}
+    polarity: 1
+  fieldLenses:
+  - center: {x: -0.5, y: -2.5}
+    radius: 0.74
+    quarterTurns: 1
+  - center: {x: 0.5, y: -2.5}
+    radius: 0.74
+    quarterTurns: -1
+  polarityLocks:
+  - center: {x: 2.5, y: -2.5}
+    length: 0.82
+    horizontal: 1
+    patternLength: 3
+    patternBits: 5
+  echoMagnetEnabled: 1
+  ferrofluidMemoryEnabled: 0
+  orbitGoalEnabled: 0
+  orbitGoalTurns: 1
+  useNormalPhysics: 0
+  pushUnlocked: 1
+  targetMoves: 19
+  targetEnergy: 266
+  isEndless: 0
+  endlessIndex: 0
+  isDailyChallenge: 0
+  dailyKey: 
+  tutorialPrompt: Ice, gates, moving walls and field zones
+  verifiedSolution:
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 5
+    mode: 1
+  - magnet:
+      side: 0
+      index: 4
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 7
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 1
+      index: 6
+    mode: 0
+  - magnet:
+      side: 1
+      index: 7
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 1
+      index: 0
+    mode: 1

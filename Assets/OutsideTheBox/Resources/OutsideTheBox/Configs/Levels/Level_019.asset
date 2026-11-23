@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a7c11e713240f4aa7f68625b83332a, type: 3}
+  m_Name: Level_019
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.LevelDefinition
+  levelId: level_019
+  levelNumber: 19
+  generatorSeed: 92563
+  generatedContentVersion: 7
+  width: 6
+  height: 6
+  start:
+    x: 3
+    y: 5
+  exit:
+    x: 0
+    y: 2
+  useCustomStartingMagnet: 1
+  startingMagnet:
+    side: 0
+    index: 0
+  walls:
+  - x: 1
+    y: 1
+  - x: 1
+    y: 2
+  - x: 1
+    y: 3
+  - x: 1
+    y: 5
+  - x: 2
+    y: 5
+  - x: 3
+    y: 3
+  - x: 3
+    y: 4
+  - x: 3
+    y: 2
+  wallSegments: []
+  gates: []
+  movingWalls: []
+  fieldZones: []
+  magneticImprints: []
+  fieldLenses: []
+  polarityLocks: []
+  echoMagnetEnabled: 0
+  ferrofluidMemoryEnabled: 0
+  orbitGoalEnabled: 0
+  orbitGoalTurns: 1
+  useNormalPhysics: 0
+  pushUnlocked: 0
+  targetMoves: 12
+  targetEnergy: 120
+  isEndless: 0
+  endlessIndex: 0
+  isDailyChallenge: 0
+  dailyKey: 
+  tutorialPrompt: 
+  verifiedSolution:
+  - magnet:
+      side: 1
+      index: 2
+    mode: 0
+  - magnet:
+      side: 1
+      index: 0
+    mode: 0
+  - magnet:
+      side: 1
+      index: 0
+    mode: 0
+  - magnet:
+      side: 1
+      index: 0
+    mode: 0
+  - magnet:
+      side: 2
+      index: 2
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 2
+      index: 1
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 2
+    mode: 0
+  - magnet:
+      side: 0
+      index: 3
+    mode: 0

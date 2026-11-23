@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 737f24287a8d4bd9ac157fa08d590a5e, type: 3}
+  m_Name: RuntimePrefabRegistry
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.RuntimePrefabRegistry
+  cameraPrefab: {fileID: 3064654647278792234, guid: 7df72ec963f2fdb4eb72823c48ed6bdd, type: 3}
+  boardPrefab: {fileID: 7314014942676198958, guid: f40ba3bab0c56374ca97605173a0c0f6, type: 3}
+  gameRootPrefab: {fileID: 5432576923996323954, guid: 6a5cd32feb526e04ba5073c7c852ae49, type: 3}
+  hudPrefab: {fileID: 5303957548929939524, guid: 5b30f4d62f281084ca1344dc8db60209, type: 3}
+  containerPrefab: {fileID: 457846370556915939, guid: 23c35cd9c3be4624f89a06287a6ccfce, type: 3}
+  spritePiecePrefab: {fileID: 1638173505862034435, guid: 686bbbd4153302941a9ed3abd9a9065f, type: 3}
+  boardSurfacePrefab: {fileID: 1401133404548484345, guid: 184d119f970febc42974a061de94a7a2, type: 3}
+  glassPiecePrefab: {fileID: 2100721303024049056, guid: d590fd3fc9950a54ca6099851d875226, type: 3}
+  wallPrefab: {fileID: 3105649304831644828, guid: 48c160323d0efaf4b8f3b28d0472aea4, type: 3}
+  exitPrefab: {fileID: 5961966891321293748, guid: 07c61ebcc3973814bbe1bd278af12d90, type: 3}
+  goalGlowPrefab: {fileID: 6980263139476359197, guid: 30218dcd01dfd0742aa7575b4d78124c, type: 3}
+  oneWayGatePrefab: {fileID: 5168230391438200757, guid: 2595ae92b47926a41a59e728b3294d59, type: 3}
+  ballPrefab: {fileID: 7129217689884808475, guid: f457d9b95f47c784c9cc1d5565a8c87e, type: 3}
+  magnetPrefab: {fileID: 8701656034104319896, guid: 7204f24b0668cf9479c5ce2df8554829, type: 3}
+  magneticFieldPrefab: {fileID: 4131391065207065103, guid: a0003e5aff121fd4da6f1b3b9e45e79e, type: 3}
+  directionArrowPrefab: {fileID: 3615295181901469440, guid: 16341666ca66d2146ae13272c0c82381, type: 3}
+  chapterBackgroundPrefab: {fileID: 6941332429138879052, guid: 42fe9e141629e1f4eb2b9e8276f19880, type: 3}
+  feedbackBurstPrefab: {fileID: 3834189573688986835, guid: 16cf2e06aae582a4da6664ea57fec4c6, type: 3}
+  levelPipeTransitionPrefab: {fileID: 7600001, guid: 5c5f28b2deca47ed9e10a44308f5d915, type: 3}
+  levelPipeTransition3DPrefab: {fileID: 7700001, guid: e4a56c5e7e674571abec98a7d99c6753, type: 3}
+  uiCanvasPrefab: {fileID: 2874602079245429842, guid: 6939439a7c0bfe542bd176272109b291, type: 3}
+  uiSafeAreaPrefab: {fileID: 5813295403148219586, guid: 7fa3b70633e207c41b9af7fc8b14cae2, type: 3}
+  uiRectPrefab: {fileID: 6801772354687598965, guid: f951a81dedef4414b9acad9612d61c2d, type: 3}
+  uiPanelPrefab: {fileID: 3845567942190939612, guid: f0c75513976ccf047bdb212dbb97578b, type: 3}
+  uiTextPrefab: {fileID: 6753178533981585814, guid: 1253dae4cb7b12a43a86cb4b7f3d3cbd, type: 3}
+  uiButtonPrefab: {fileID: 6616530081721149202, guid: 91a2b8e9cceca4f40aceae81a06e3040, type: 3}
+  uiScrollPrefab: {fileID: 8727884213906193899, guid: f60160c6e9e612f4286469aa3c60ca70, type: 3}
+  eventSystemPrefab: {fileID: 3023668626613323822, guid: 08db71d55ac81a841b251d245cdd8aa5, type: 3}
+  signInPanelPrefab: {fileID: 5759444797758977510, guid: b4ab38b87f10ac34cbf4e0fa34424400, type: 3}
+  mainMenuPrefab: {fileID: 5816896522176492852, guid: cad1173f611678c4d9ea99340fcc28b9, type: 3}
+  gameplayHudPrefab: {fileID: 5836139049689203850, guid: add8fbfea919e3940962752eb1984b70, type: 3}
+  winPanelPrefab: {fileID: 4735848932646222983, guid: 0c1a7833c03253142ac8f943e538cab4, type: 3}
+  pausePanelPrefab: {fileID: 2363707117211237101, guid: d475dadecf810c443a72ac6fb55b8430, type: 3}
+  chapterSelectPrefab: {fileID: 453497680418538604, guid: f50399cca8f21674c8bf5649d51f25bd, type: 3}
+  levelSelectPrefab: {fileID: 4993784298007635457, guid: c90065e9b2b17bd40b3fd44c8b548976, type: 3}
+  settingsPanelPrefab: {fileID: 2246582311303091532, guid: 53f5e40fe4b23f045b81e72644cddc5c, type: 3}
+  tutorialOverlayPrefab: {fileID: 3037612139497263431, guid: 69ec629c2fbcb3541b50b26270ba7bc8, type: 3}
+  tooltipPrefab: {fileID: 3036694549039020664, guid: f5dc3bbce7dbfc94d8769faa716842ad, type: 3}
+  storePanelPrefab: {fileID: 6816121860380465219, guid: ed00a5e3c3d793842bda0dfa2e2eb470, type: 3}
+  gemStorePanelPrefab: {fileID: 6100033, guid: efa9b7c4d3ba49d5ad3bb812ac45e60e, type: 3}
+  gemBalanceButtonPrefab: {fileID: 7200001, guid: a756286de21c47159ebcac7bbde1317c, type: 3}
+  quitConfirmationPrefab: {fileID: 800001, guid: 4fdf3f94bb9446de854afc789ae0caaa, type: 3}
+  offlinePanelPrefab: {fileID: 800001, guid: 5e3573100a0c47f198e76ae674059778, type: 3}
+  cloudSyncPanelPrefab: {fileID: 800001, guid: 375e4800626c4f37945e74c91712aa6d, type: 3}
+  loadingOverlayPrefab: {fileID: 7374220664046739881, guid: 7d22c190a76c41d2a53346aa4689a61d, type: 3}
+  screenTransitionPrefab: {fileID: 4433675091876014010, guid: 561995d67a284363b177cd1e6c2506d9, type: 3}
+  accountPanelPrefab: {fileID: 8680855094278138450, guid: 0b0ab3ceb4d93ca45a01402bd28d0129, type: 3}
+  leaderboardPanelPrefab: {fileID: 7848584638051476704, guid: bf28b823236609e4f8cc2b7be71f6955, type: 3}
+  timeOutPanelPrefab: {fileID: 8860969776354636395, guid: 14647d140f94e0a45a3891324d0f4c3b, type: 3}
+  railChallengeMarkerPrefab: {fileID: 3291155954669749530, guid: 6b6baec86b9bebe439b150d32d35ffd3, type: 3}
+  mechanicWorldIconPrefab: {fileID: 6789423821297038414, guid: c988487a32ec79746809179e7cbcf0b5, type: 3}
+  mechanicTutorialIconPrefab: {fileID: 2546963291810277524, guid: fca738f26cf552b4389cd4b619ee8a93, type: 3}
+  mechanicButtonIconPrefab: {fileID: 6209722650338299643, guid: 7ca2f67f0f4a1234ca00b02040873cd1, type: 3}
+  mechanicLegendPrefab: {fileID: 8244958010017388958, guid: d09ebbc862ce62b40a0a5969092c6e6b, type: 3}

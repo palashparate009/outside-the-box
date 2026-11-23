@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Explicitly declare Play Billing for the cosmetic store and Play Console detection. -->
+  <uses-permission android:name="com.android.vending.BILLING" />
+  <application>
+    <!-- Unity screens are reported explicitly by GameUIController, not as one Android activity. -->
+    <meta-data android:name="google_analytics_automatic_screen_reporting_enabled" android:value="false" />
+    <!-- Unity 6 uses GameActivity in this project. This entry is required for
+         the launcher icon, Play Store's Play button, and notification taps. -->
+    <activity
+      android:name="com.unity3d.player.UnityPlayerGameActivity"
+      android:theme="@style/BaseUnityGameActivityTheme"
+      android:exported="true"
+      android:launchMode="singleTask"
+      android:screenOrientation="portrait"
+      android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|density">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+      <meta-data android:name="android.app.lib_name" android:value="game" />
+    </activity>
+    <!-- Required by the Google Mobile Ads SDK used through LevelPlay mediation. -->
+    <meta-data
+      android:name="com.google.android.gms.ads.APPLICATION_ID"
+      android:value="ca-app-pub-8757024569931584~9945010376" />
+  </application>
+</manifest>

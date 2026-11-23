@@ -1,0 +1,19 @@
+{
+  "name": "OutsideTheBox.Editor",
+  "rootNamespace": "OutsideTheBox.Editor",
+  "references": [
+    "OutsideTheBox.Runtime",
+    "Unity.ugui",
+    "Unity.TextMeshPro",
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

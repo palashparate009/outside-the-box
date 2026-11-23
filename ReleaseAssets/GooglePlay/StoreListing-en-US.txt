@@ -1,0 +1,39 @@
+APP NAME
+Outside the Box
+
+GAME CATEGORY
+Puzzle
+
+SHORT DESCRIPTION (also suitable for the short Play Games description field)
+Bend magnetic fields, guide the ball, and solve clever physics puzzles.
+
+FULL DESCRIPTION
+Think outside the box. Find the path.
+
+Outside the Box is a physics puzzle game where you guide a steel ball using a magnet around the outside of a glass board. Pull, push, and plan your movements to steer the ball past obstacles and into the goal.
+
+BEAT THE CLOCK
+Find an efficient route, manage your energy, and improve your performance to earn more stars. Try a different approach when the obvious path does not work.
+
+EXPLORE THE CAMPAIGN
+Play 60 levels across six chapters. Discover new layouts and mechanics, including Echo, magnetic memory, moving obstacles, polarity locks, and orbit goals.
+
+TAKE ON DAILY CHALLENGES
+Return for a new daily puzzle and put your magnetic control to the test. Complete the campaign to unlock Endless mode.
+
+MAKE IT YOUR OWN
+Customize your ball, magnet, goal, walls, glass, and background. Earn gems through play, discover cosmetic styles, and claim chapter gifts from the store.
+
+KEEP YOUR PROGRESS
+Sign in with Google Play Games or an in-game username and password to save your progress in the cloud and compare performance on leaderboards.
+
+A clever solution can start with one small move. Where will you take the ball?
+
+An internet connection is required. Contains advertising and optional in-app purchases for cosmetic items and gem packs. Gems can be used for cosmetics and revives.
+
+ICON UPLOAD
+OutsideTheBox-Icon-512.png (512 x 512 PNG)
+
+FEATURE GRAPHIC
+UPLOAD-FeatureGraphic-1024x500.png (1024 x 500, 24-bit RGB PNG without transparency, under 1 MB)
+

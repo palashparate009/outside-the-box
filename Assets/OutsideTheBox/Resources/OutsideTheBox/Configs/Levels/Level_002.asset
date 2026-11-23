@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a7c11e713240f4aa7f68625b83332a, type: 3}
+  m_Name: Level_002
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.LevelDefinition
+  levelId: level_002
+  levelNumber: 2
+  generatorSeed: 75954
+  generatedContentVersion: 7
+  width: 5
+  height: 5
+  start:
+    x: 0
+    y: 0
+  exit:
+    x: 4
+    y: 2
+  useCustomStartingMagnet: 1
+  startingMagnet:
+    side: 2
+    index: 1
+  walls:
+  - x: 2
+    y: 1
+  - x: 2
+    y: 2
+  - x: 3
+    y: 0
+  - x: 4
+    y: 0
+  wallSegments: []
+  gates: []
+  movingWalls: []
+  fieldZones: []
+  magneticImprints: []
+  fieldLenses: []
+  polarityLocks: []
+  echoMagnetEnabled: 0
+  ferrofluidMemoryEnabled: 0
+  orbitGoalEnabled: 0
+  orbitGoalTurns: 1
+  useNormalPhysics: 0
+  pushUnlocked: 0
+  targetMoves: 8
+  targetEnergy: 72
+  isEndless: 0
+  endlessIndex: 0
+  isDailyChallenge: 0
+  dailyKey: 
+  tutorialPrompt: 
+  verifiedSolution:
+  - magnet:
+      side: 0
+      index: 2
+    mode: 0
+  - magnet:
+      side: 0
+      index: 3
+    mode: 0
+  - magnet:
+      side: 0
+      index: 4
+    mode: 0
+  - magnet:
+      side: 1
+      index: 0
+    mode: 0
+  - magnet:
+      side: 1
+      index: 0
+    mode: 0
+  - magnet:
+      side: 1
+      index: 0
+    mode: 0
+  - magnet:
+      side: 1
+      index: 0
+    mode: 0
+  - magnet:
+      side: 1
+      index: 0
+    mode: 0

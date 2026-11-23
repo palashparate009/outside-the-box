@@ -1,0 +1,75 @@
+{
+    "version":  1,
+    "items":  [
+                  {
+                      "title":  "A fresh perspective",
+                      "body":  "A fresh perspective can unlock a new path. Ready for your next puzzle?",
+                      "image":  "otb_notifications/v1/01-a-fresh-perspective.jpg"
+                  },
+                  {
+                      "title":  "Small moves, big discoveries",
+                      "body":  "Small moves can lead to big discoveries. Try one more magnetic puzzle.",
+                      "image":  "otb_notifications/v1/02-small-moves-big-discoveries.jpg"
+                  },
+                  {
+                      "title":  "Your puzzle break awaits",
+                      "body":  "Take a little puzzle break. Your next challenge is waiting.",
+                      "image":  "otb_notifications/v1/03-your-puzzle-break-awaits.jpg"
+                  },
+                  {
+                      "title":  "Follow your curiosity",
+                      "body":  "Every great solution starts with a little curiosity. Follow yours today.",
+                      "image":  "otb_notifications/v1/04-follow-your-curiosity.jpg"
+                  },
+                  {
+                      "title":  "A fresh look, a new path",
+                      "body":  "Stuck yesterday? A fresh look might reveal the way today.",
+                      "image":  "otb_notifications/v1/05-a-fresh-look-a-new-path.jpg"
+                  },
+                  {
+                      "title":  "Think outside the box",
+                      "body":  "Think outside the box. Your next clever move is waiting.",
+                      "image":  "otb_notifications/v1/06-think-outside-the-box.jpg"
+                  },
+                  {
+                      "title":  "One bright idea",
+                      "body":  "One puzzle, one bright idea. See what you can discover today.",
+                      "image":  "otb_notifications/v1/07-one-bright-idea.jpg"
+                  },
+                  {
+                      "title":  "Try a new angle",
+                      "body":  "A new angle can change everything. Find your next path.",
+                      "image":  "otb_notifications/v1/08-try-a-new-angle.jpg"
+                  },
+                  {
+                      "title":  "Make time for curiosity",
+                      "body":  "Make a little time for curiosity. Come back for a magnetic challenge.",
+                      "image":  "otb_notifications/v1/09-make-time-for-curiosity.jpg"
+                  },
+                  {
+                      "title":  "One move from a breakthrough",
+                      "body":  "The next breakthrough could be one move away. Give it a try.",
+                      "image":  "otb_notifications/v1/10-one-move-from-a-breakthrough.jpg"
+                  },
+                  {
+                      "title":  "A little pause, a new possibility",
+                      "body":  "Pause the busy day and play with a new possibility.",
+                      "image":  "otb_notifications/v1/11-a-little-pause-a-new-possibility.jpg"
+                  },
+                  {
+                      "title":  "Bring your best ideas",
+                      "body":  "You bring the ideas. We bring the puzzles. Ready to play?",
+                      "image":  "otb_notifications/v1/12-bring-your-best-ideas.jpg"
+                  },
+                  {
+                      "title":  "Find your satisfying finish",
+                      "body":  "A little patience. A clever move. A satisfying finish. Your next puzzle awaits.",
+                      "image":  "otb_notifications/v1/13-find-your-satisfying-finish.jpg"
+                  },
+                  {
+                      "title":  "Keep exploring",
+                      "body":  "Keep exploring. There is always another way to think outside the box.",
+                      "image":  "otb_notifications/v1/14-keep-exploring.jpg"
+                  }
+              ]
+}

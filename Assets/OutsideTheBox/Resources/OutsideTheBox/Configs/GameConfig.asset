@@ -1,0 +1,607 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2397d0829d29c2a4bb884543695afe87, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.GameConfig
+  contentVersion: 7
+  unlockAllChaptersForTesting: 0
+  previewPipeLevelTransitions: 1
+  pipeTransitionPreviewStyle: 1
+  magnetFollowSpeed: 45
+  magneticAcceleration: 13
+  maximumBallSpeed: 5.5
+  ballDrag: 1.35
+  wallBounce: 0.22
+  ballRadius: 0.31
+  ballCollisionRadius: 0.29
+  exitRadius: 0.42
+  ballStopSpeed: 0.035
+  winDelaySeconds: 0.12
+  gameplayFrameRate: 60
+  batterySaverFrameRate: 30
+  smoothFrameRate: 60
+  automaticLowMemoryThresholdMb: 3072
+  runInBackgroundInEditor: 1
+  runInBackgroundOnDevice: 0
+  cellSize: 1
+  railGap: 0.55
+  cellGap: 0.09
+  wallThickness: 0.42
+  wallCollisionThickness: 0.42
+  wallCollisionEndInset: 0
+  standaloneWallLength: 1
+  gateSize: 0.68
+  wallShadowOffset: 0.04
+  wallShadowAlpha: 0.18
+  wallBevelAlpha: 0
+  glassFramePadding: 0.08
+  glassFrameBorderFraction: 0.22
+  outerGlassThickness: 0.2
+  outerGlassAlpha: 0.72
+  cameraSidePadding: 0.2
+  cameraVerticalPadding: 2.8
+  ballArtScale: 1
+  goalArtScale: 1
+  magnetVisualSize: 1.35
+  magnetDragPickupRadius: 0.9
+  pocketDropDuration: 0.42
+  pocketDropSpinDegrees: 240
+  pocketDropEndScale: 0.04
+  pocketSuctionOvershoot: 0.12
+  pocketUnderlayTime: 0.28
+  pocketFadeStart: 0.55
+  goalPulseAmount: 0.055
+  goalPulseSpeed: 2.4
+  goalGlowAlpha: 0.48
+  goalGlowScale: 1.75
+  goalGlowPulseAmount: 0.04
+  glassGlowAlpha: 0.38
+  glassGlowScale: 1.04
+  glassGlowPulseAmount: 0.012
+  glassGlowPulseSpeed: 1.1
+  fieldLineCount: 4
+  fieldLineSegments: 16
+  fieldLineWidth: 0.026
+  fieldCurveSpread: 0.48
+  fieldLineAlpha: 0.62
+  fieldZoneAlpha: 0.2
+  weakFieldZone: {r: 0.35, g: 0.72, b: 1, a: 1}
+  strongFieldZone: {r: 1, g: 0.55, b: 0.15, a: 1}
+  accessibleWeakFieldZone: {r: 0.1, g: 0.75, b: 1, a: 1}
+  accessibleStrongFieldZone: {r: 1, g: 0.2, b: 0.75, a: 1}
+  collisionFeedbackCooldown: 0.12
+  collisionSolverPasses: 4
+  energyUiRefreshInterval: 0.1
+  collisionEnergyPenalty: 1.5
+  twoStarEnergyMultiplier: 1.35
+  proceduralLevelsEnabled: 1
+  focusedChapterDesignEnabled: 1
+  levelDesignRevision: 2
+  generatorBaseWallCells: 2
+  generatorWallCellsPerLevel: 0.3
+  generatorMaximumWallCells: 36
+  generatorShapeAttempts: 180
+  generatorLayoutAttempts: 32
+  generatorPreferBlockedDirectPath: 1
+  generatorMinimumDetourSteps: 2
+  generatorDetourWeight: 24
+  generatorBlockedLineBonus: 100
+  echoMagnetUnlockLevel: 31
+  ferrofluidMemoryUnlockLevel: 36
+  magneticImprintUnlockLevel: 41
+  fieldLensUnlockLevel: 46
+  polarityLockUnlockLevel: 51
+  orbitGoalUnlockLevel: 56
+  magneticImprintsPerLevel: 2
+  fieldLensesPerLevel: 2
+  polarityLocksPerLevel: 1
+  polarityLockPatternLength: 3
+  signatureMechanicSpacing: 2
+  echoMagnetColor: {r: 0.15, g: 0.95, b: 1, a: 0.72}
+  magneticImprintPullColor: {r: 0.2, g: 0.7, b: 1, a: 0.9}
+  magneticImprintPushColor: {r: 1, g: 0.3, b: 0.25, a: 0.9}
+  fieldLensColor: {r: 0.75, g: 0.35, b: 1, a: 0.82}
+  ferrofluidTrailColor: {r: 0.12, g: 0.12, b: 0.2, a: 0.58}
+  polarityLockColor: {r: 1, g: 0.72, b: 0.15, a: 0.95}
+  orbitGoalColor: {r: 0.25, g: 1, b: 0.55, a: 0.85}
+  endlessEnabled: 1
+  endlessSeedBase: 910247
+  endlessWallCellsPerLevel: 0.16
+  endlessMaximumWallCells: 38
+  endlessGateInterval: 8
+  dailyChallengeEnabled: 1
+  dailySeedBase: 481516
+  dailyMinimumDifficulty: 16
+  dailyDifficultyCycle: 35
+  levelsPerChapter: 10
+  railChallengesEnabled: 1
+  railChallengeTutorials:
+  - id: 811
+    title: "Locked Side"
+    body: "The {side} rail is closed. Red stripes and a lock mark the blocked side. Drag the magnet around the other three sides to guide the ball."
+    buttonLabel: GOT IT
+    completionTooltip: "Plan your route using the open rails"
+  - id: 812
+    title: "Limited Rail"
+    body: "Only the unstriped section of the {side} rail is available. The other three sides remain open. Use a different angle when a blocked section stops your drag."
+    buttonLabel: GOT IT
+    completionTooltip: "Use the unstriped rail section"
+  - id: 813
+    title: "Timed Lock"
+    body: "The {side} rail opens and closes. Green means open; red stripes mean locked. Watch the countdown. If it closes while your magnet is there, the field pauses until it opens, or you move to another side."
+    buttonLabel: GOT IT
+    completionTooltip: "Watch the rail countdown and time your pulls"
+  - id: 814
+    title: "Unlock Switch"
+    body: "Guide the ball over the colored switch inside the board. It turns green and permanently unlocks the {side} rail and goal for this attempt."
+    buttonLabel: GOT IT
+    completionTooltip: "Hit the switch before heading for the goal"
+  - id: 815
+    title: "Side Change Limit"
+    body: "This level gives you {budget} changes between magnet sides. Moving along the same side costs nothing. Plan your route before switching; Restart gives you a fresh budget."
+    buttonLabel: GOT IT
+    completionTooltip: "The remaining side changes are shown below the board"
+  - id: 816
+    title: "Magnet Cooldown"
+    body: "Long pulls drain the magnet charge. When empty, the magnet briefly recharges and the ball coasts. Release early to cool it down, and use short pulls to stay in control."
+    buttonLabel: GOT IT
+    completionTooltip: "Watch the charge bar and let the ball coast while recharging"
+  firstTimeTutorials:
+  - id: 101
+    title: Move the magnet
+    body: Touch and drag the magnet around the outside edge of the glass. The magnet
+      stays outside; the ball stays inside.
+    buttonLabel: NEXT
+    completionTooltip: 
+  - id: 102
+    title: Guide the ball
+    body: Hold the magnet to attract the steel ball. Release to let it coast, then
+      guide it into the glowing green pocket.
+    buttonLabel: NEXT
+    completionTooltip: 
+  - id: 103
+    title: Use energy wisely
+    body: Your magnetic field uses energy while you hold and move the magnet. Finish
+      with less energy to earn more stars.
+    buttonLabel: LET'S PLAY
+    completionTooltip: Drag the magnet to begin
+  secondLevelTutorials:
+  - id: 111
+    title: Walls block force
+    body: A wall removes only the ball's motion into it. Slide along the wall, then
+      move the magnet to another side to route around the corner.
+    buttonLabel: SHOW ME
+    completionTooltip: Use another side of the glass when the direct pull is blocked
+  - id: 112
+    title: Release and redirect
+    body: You do not need to hold the magnet forever. Release to let the ball coast,
+      then grab the magnet again from a better side.
+    buttonLabel: LET'S TRY
+    completionTooltip: Short controlled pulls are easier than one long pull
+  echoMagnetTutorial:
+    id: 801
+    title: Echo Magnet
+    body: Tap ECHO, then drag the magnet. Your recorded path repeats as a cyan ghost
+      while you control the real magnet. Both fields combine.
+    buttonLabel: RECORD AN ECHO
+    completionTooltip: Record a path, then steer beside your ghost
+  ferrofluidTutorial:
+    id: 802
+    title: Ferrofluid Memory
+    body: The ball leaves a conductive trail. When it crosses its trail again, the
+      remembered direction helps guide its momentum.
+    buttonLabel: FOLLOW THE TRAIL
+    completionTooltip: 
+  magneticImprintTutorial:
+    id: 803
+    title: Magnetic Imprints
+    body: Striped metal walls wake when the ball touches them. Blue imprints pull
+      and red imprints push for a few seconds.
+    buttonLabel: WAKE THE WALLS
+    completionTooltip: 
+  fieldLensTutorial:
+    id: 804
+    title: Field Lenses
+    body: Purple lenses rotate magnetic force. Watch the arrow inside each lens before
+      committing to a pull.
+    buttonLabel: BEND THE FIELD
+    completionTooltip: 
+  polarityLockTutorial:
+    id: 805
+    title: Polarity Locks
+    body: Follow the PULL and PUSH symbols on the lock using the force button. Completed symbols turn green. Finish the sequence to open the passage.
+    buttonLabel: ENTER THE CODE
+    completionTooltip: 
+  orbitGoalTutorial:
+    id: 806
+    title: Orbit Goal
+    body: The pocket opens only after the ball circles its green ring. Build sideways
+      momentum, complete the orbit, then drop into the centre.
+    buttonLabel: ENTER ORBIT
+    completionTooltip: 
+  chapters:
+  - title: Magnetic Basics
+    challenge: Learn smooth, efficient pulls
+    boardSize: 5
+    wallDensity: 0.12
+    wallDensityRamp: 0.06
+    maxWallRunLength: 2
+    minimumWallGroups: 2
+    minimumSolutionSteps: 5
+    gateCount: 0
+    movingWallCount: 0
+    fieldZoneCount: 0
+    dragMultiplier: 1
+    magneticStrengthMultiplier: 1
+    interferenceStrength: 0
+    energyPerSecond: 8
+    energyPerWorldUnit: 2
+    targetEnergyPerSolutionStep: 9
+    bounceMultiplier: 1
+    pushUnlocked: 0
+    oneWayGates: 0
+    movingWalls: 0
+    fieldZones: 0
+    tutorialSteps: []
+    backgroundColorA: {r: 0.025, g: 0.105, b: 0.2, a: 1}
+    backgroundColorB: {r: 0.055, g: 0.35, b: 0.455, a: 1}
+    backgroundAccent: {r: 0.37, g: 0.92, b: 0.83, a: 1}
+    backgroundSpeed: 0.34
+    backgroundPattern: 0
+    backgroundIntensity: 0.36
+  - title: Frozen Glass
+    challenge: The ball keeps sliding
+    boardSize: 6
+    wallDensity: 0.17
+    wallDensityRamp: 0.06
+    maxWallRunLength: 3
+    minimumWallGroups: 3
+    minimumSolutionSteps: 7
+    gateCount: 0
+    movingWallCount: 0
+    fieldZoneCount: 0
+    dragMultiplier: 0.32
+    magneticStrengthMultiplier: 1
+    interferenceStrength: 0
+    energyPerSecond: 8.5
+    energyPerWorldUnit: 2.2
+    targetEnergyPerSolutionStep: 10
+    bounceMultiplier: 1
+    pushUnlocked: 0
+    oneWayGates: 0
+    movingWalls: 0
+    fieldZones: 0
+    tutorialSteps:
+    - id: 201
+      title: Slippery floor
+      body: The frozen glass has very little friction. Release the magnet early and
+        use short pulls so the ball does not overshoot.
+      buttonLabel: GOT IT
+      completionTooltip: Short pulls give you more control
+    backgroundColorA: {r: 0.035, g: 0.14, b: 0.28, a: 1}
+    backgroundColorB: {r: 0.085, g: 0.41, b: 0.48, a: 1}
+    backgroundAccent: {r: 0.65, g: 0.95, b: 0.88, a: 1}
+    backgroundSpeed: 0.28
+    backgroundPattern: 1
+    backgroundIntensity: 0.34
+  - title: Polarity Lab
+    challenge: Pull and push
+    boardSize: 7
+    wallDensity: 0.21
+    wallDensityRamp: 0.07
+    maxWallRunLength: 3
+    minimumWallGroups: 4
+    minimumSolutionSteps: 9
+    gateCount: 0
+    movingWallCount: 0
+    fieldZoneCount: 0
+    dragMultiplier: 1
+    magneticStrengthMultiplier: 1
+    interferenceStrength: 0
+    energyPerSecond: 9
+    energyPerWorldUnit: 2.5
+    targetEnergyPerSolutionStep: 11
+    bounceMultiplier: 1
+    pushUnlocked: 1
+    oneWayGates: 0
+    movingWalls: 0
+    fieldZones: 0
+    tutorialSteps:
+    - id: 301
+      title: Switch polarity
+      body: Use the PULL / PUSH button to change the magnetic force. Pull brings
+        the ball closer; push drives it away and uses more energy while active.
+      buttonLabel: TRY POLARITY
+      completionTooltip: Switch polarity whenever the route needs it
+    backgroundColorA: {r: 0.105, g: 0.07, b: 0.23, a: 1}
+    backgroundColorB: {r: 0.33, g: 0.23, b: 0.6, a: 1}
+    backgroundAccent: {r: 0.96, g: 0.45, b: 0.72, a: 1}
+    backgroundSpeed: 0.38
+    backgroundPattern: 2
+    backgroundIntensity: 0.37
+  - title: Gate Factory
+    challenge: Read gates and time moving walls
+    boardSize: 8
+    wallDensity: 0.25
+    wallDensityRamp: 0.07
+    maxWallRunLength: 3
+    minimumWallGroups: 6
+    minimumSolutionSteps: 11
+    gateCount: 2
+    movingWallCount: 2
+    fieldZoneCount: 0
+    dragMultiplier: 0.9
+    magneticStrengthMultiplier: 1
+    interferenceStrength: 0
+    energyPerSecond: 9.5
+    energyPerWorldUnit: 2.7
+    targetEnergyPerSolutionStep: 12
+    bounceMultiplier: 1
+    pushUnlocked: 1
+    oneWayGates: 1
+    movingWalls: 1
+    fieldZones: 0
+    tutorialSteps:
+    - id: 401
+      title: One-way gates
+      body: The arrow shows the only direction the ball can enter a gate. Approach
+        from the arrow side.
+      buttonLabel: NEXT
+      completionTooltip: 
+    - id: 402
+      title: Moving walls
+      body: Moving walls change the safe route. Watch their rhythm and move when
+        a gap opens.
+      buttonLabel: GOT IT
+      completionTooltip: Read the arrows and time the moving walls
+    backgroundColorA: {r: 0.045, g: 0.1, b: 0.17, a: 1}
+    backgroundColorB: {r: 0.12, g: 0.33, b: 0.41, a: 1}
+    backgroundAccent: {r: 1, g: 0.72, b: 0.3, a: 1}
+    backgroundSpeed: 0.42
+    backgroundPattern: 3
+    backgroundIntensity: 0.39
+  - title: Field Distortion
+    challenge: Colored zones alter magnetic strength
+    boardSize: 9
+    wallDensity: 0.29
+    wallDensityRamp: 0.07
+    maxWallRunLength: 3
+    minimumWallGroups: 8
+    minimumSolutionSteps: 13
+    gateCount: 0
+    movingWallCount: 0
+    fieldZoneCount: 3
+    dragMultiplier: 0.8
+    magneticStrengthMultiplier: 0.9
+    interferenceStrength: 0.12
+    energyPerSecond: 10
+    energyPerWorldUnit: 3
+    targetEnergyPerSolutionStep: 13
+    bounceMultiplier: 1
+    pushUnlocked: 1
+    oneWayGates: 0
+    movingWalls: 0
+    fieldZones: 1
+    tutorialSteps:
+    - id: 501
+      title: Field zones
+      body: Colored zones change magnetic strength. Blue weakens the field; orange
+        strengthens it. Plan for the change before entering.
+      buttonLabel: GOT IT
+      completionTooltip: Blue is weaker, orange is stronger
+    backgroundColorA: {r: 0.02, g: 0.18, b: 0.16, a: 1}
+    backgroundColorB: {r: 0.06, g: 0.48, b: 0.4, a: 1}
+    backgroundAccent: {r: 0.71, g: 0.95, b: 0.42, a: 1}
+    backgroundSpeed: 0.36
+    backgroundPattern: 4
+    backgroundIntensity: 0.37
+  - title: Master Chambers
+    challenge: Polarity locks with one focused variation
+    boardSize: 10
+    wallDensity: 0.31
+    wallDensityRamp: 0.07
+    maxWallRunLength: 4
+    minimumWallGroups: 10
+    minimumSolutionSteps: 15
+    gateCount: 4
+    movingWallCount: 3
+    fieldZoneCount: 4
+    dragMultiplier: 0.58
+    magneticStrengthMultiplier: 0.92
+    interferenceStrength: 0.1
+    energyPerSecond: 11
+    energyPerWorldUnit: 3.2
+    targetEnergyPerSolutionStep: 14
+    bounceMultiplier: 1
+    pushUnlocked: 1
+    oneWayGates: 1
+    movingWalls: 1
+    fieldZones: 1
+    tutorialSteps:
+    - id: 601
+      title: Master chamber
+      body: Polarity locks are the chapter specialty. Each chamber adds at most one focused variation. Read its icons, enter the lock sequence, then guide the ball.
+      buttonLabel: I'M READY
+      completionTooltip: Read the active icons. Only the shown mechanics are active.
+    backgroundColorA: {r: 0.06, g: 0.035, b: 0.18, a: 1}
+    backgroundColorB: {r: 0.18, g: 0.105, b: 0.41, a: 1}
+    backgroundAccent: {r: 0.4, g: 0.87, b: 0.94, a: 1}
+    backgroundSpeed: 0.45
+    backgroundPattern: 5
+    backgroundIntensity: 0.4
+  endlessChapter:
+    title: Endless Vault
+    challenge: Survive the toughest generated chambers
+    boardSize: 10
+    wallDensity: 0.33
+    wallDensityRamp: 0.08
+    maxWallRunLength: 4
+    minimumWallGroups: 11
+    minimumSolutionSteps: 16
+    gateCount: 3
+    movingWallCount: 3
+    fieldZoneCount: 4
+    dragMultiplier: 0.52
+    magneticStrengthMultiplier: 0.88
+    interferenceStrength: 0.25
+    energyPerSecond: 12
+    energyPerWorldUnit: 3.5
+    targetEnergyPerSolutionStep: 15
+    bounceMultiplier: 1
+    pushUnlocked: 1
+    oneWayGates: 1
+    movingWalls: 1
+    fieldZones: 1
+    tutorialSteps:
+    - id: 701
+      title: Endless vault
+      body: Each chamber selects a small combination of mechanics. Check the active icons, plan the route and use the open space. New chambers keep the challenge going.
+      buttonLabel: ENTER THE VAULT
+      completionTooltip: Endless difficulty rises as you progress
+    backgroundColorA: {r: 0.01, g: 0.02, b: 0.055, a: 1}
+    backgroundColorB: {r: 0.14, g: 0.04, b: 0.22, a: 1}
+    backgroundAccent: {r: 0.91, g: 0.47, b: 0.98, a: 1}
+    backgroundSpeed: 0.52
+    backgroundPattern: 6
+    backgroundIntensity: 0.44
+  glassFrameResource: OutsideTheBox/Art/GlassFrame
+  ballResource: OutsideTheBox/Art/SteelBall
+  goalPocketResource: OutsideTheBox/Art/GoalPocket
+  magnetResource: OutsideTheBox/Art/Magnet
+  victoryHeroResource: OutsideTheBox/Art/VictoryHero
+  defaultVibration: 1
+  defaultReduceMotion: 0
+  freeHintAllowance: 5
+  privacyPolicyUrl: https://palashparate009.github.io/outside-the-box-game-site/privacy.html
+  supportEmail: palashparate009@gmail.com
+  supportedLanguageCodes:
+  - en
+  effectsVolume: 0.72
+  musicVolume: 0.18
+  proceduralMusicFallback: 1
+  ambientLoopSeconds: 8
+  moveAudioClip: {fileID: 0}
+  collisionAudioClip: {fileID: 0}
+  polarityAudioClip: {fileID: 0}
+  winAudioClip: {fileID: 0}
+  chapterMusicClips: []
+  collisionParticleCount: 7
+  polarityParticleCount: 14
+  winParticleCount: 36
+  feedbackParticleSize: 0.12
+  feedbackParticleLifetime: 0.45
+  background: {r: 0.025, g: 0.06, b: 0.12, a: 1}
+  board: {r: 0.55, g: 0.83, b: 0.92, a: 0.78}
+  boardEdge: {r: 0.68, g: 0.94, b: 1, a: 1}
+  wall: {r: 0.04, g: 0.13, b: 0.25, a: 1}
+  goal: {r: 0.2, g: 0.95, b: 0.48, a: 1}
+  gate: {r: 1, g: 0.72, b: 0.17, a: 1}
+  ball: {r: 0.9, g: 0.95, b: 1, a: 1}
+  magnet: {r: 0.96, g: 0.22, b: 0.28, a: 1}
+  hint: {r: 1, g: 0.9, b: 0.22, a: 1}
+  ballSkinTints:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.55, g: 0.9, b: 1, a: 1}
+  - {r: 1, g: 0.78, b: 0.28, a: 1}
+  - {r: 0.85, g: 0.45, b: 1, a: 1}
+  - {r: 0.35, g: 1, b: 0.62, a: 1}
+  - {r: 1, g: 0.38, b: 0.48, a: 1}
+  - {r: 0.34, g: 0.72, b: 1, a: 1}
+  - {r: 1, g: 0.56, b: 0.18, a: 1}
+  - {r: 0.2, g: 0.95, b: 0.9, a: 1}
+  - {r: 0.96, g: 0.82, b: 0.22, a: 1}
+  magnetSkinTints:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.65, g: 0.9, b: 1, a: 1}
+  - {r: 1, g: 0.78, b: 0.35, a: 1}
+  - {r: 0.85, g: 0.5, b: 1, a: 1}
+  - {r: 0.32, g: 1, b: 0.66, a: 1}
+  - {r: 1, g: 0.32, b: 0.42, a: 1}
+  - {r: 0.28, g: 0.68, b: 1, a: 1}
+  - {r: 1, g: 0.52, b: 0.16, a: 1}
+  - {r: 0.22, g: 0.92, b: 0.86, a: 1}
+  - {r: 0.95, g: 0.78, b: 0.2, a: 1}
+  goalSkinTints:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.3, g: 1, b: 0.55, a: 1}
+  - {r: 0.2, g: 0.75, b: 1, a: 1}
+  - {r: 0.75, g: 0.4, b: 1, a: 1}
+  - {r: 1, g: 0.72, b: 0.2, a: 1}
+  - {r: 1, g: 0.35, b: 0.42, a: 1}
+  - {r: 0.25, g: 1, b: 0.9, a: 1}
+  - {r: 0.62, g: 1, b: 0.3, a: 1}
+  - {r: 0.95, g: 0.35, b: 0.85, a: 1}
+  - {r: 1, g: 0.88, b: 0.35, a: 1}
+  wallSkinTints:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.3, g: 0.65, b: 1, a: 1}
+  - {r: 0.25, g: 0.95, b: 0.72, a: 1}
+  - {r: 0.72, g: 0.42, b: 1, a: 1}
+  - {r: 1, g: 0.62, b: 0.24, a: 1}
+  - {r: 0.95, g: 0.3, b: 0.4, a: 1}
+  - {r: 0.32, g: 0.85, b: 0.95, a: 1}
+  - {r: 0.55, g: 0.85, b: 0.28, a: 1}
+  - {r: 0.88, g: 0.36, b: 0.9, a: 1}
+  - {r: 0.95, g: 0.82, b: 0.3, a: 1}
+  glassSkinTints:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.35, g: 0.9, b: 1, a: 1}
+  - {r: 0.35, g: 1, b: 0.72, a: 1}
+  - {r: 0.72, g: 0.5, b: 1, a: 1}
+  - {r: 1, g: 0.72, b: 0.28, a: 1}
+  - {r: 1, g: 0.42, b: 0.5, a: 1}
+  - {r: 0.36, g: 0.75, b: 1, a: 1}
+  - {r: 0.58, g: 1, b: 0.4, a: 1}
+  - {r: 0.92, g: 0.42, b: 0.92, a: 1}
+  - {r: 1, g: 0.9, b: 0.42, a: 1}
+  backgroundSkinTints:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.18, g: 0.62, b: 1, a: 1}
+  - {r: 0.18, g: 0.92, b: 0.68, a: 1}
+  - {r: 0.58, g: 0.3, b: 1, a: 1}
+  - {r: 1, g: 0.48, b: 0.2, a: 1}
+  - {r: 0.95, g: 0.22, b: 0.4, a: 1}
+  - {r: 0.12, g: 0.74, b: 0.9, a: 1}
+  - {r: 0.45, g: 0.82, b: 0.18, a: 1}
+  - {r: 0.82, g: 0.2, b: 0.82, a: 1}
+  - {r: 0.95, g: 0.72, b: 0.16, a: 1}
+  cosmeticStarThresholds: 000000000f0000002d0000005a0000007800000096000000b4000000d2000000f00000000e010000
+  uiCream: {r: 0.965, g: 0.985, b: 1, a: 1}
+  uiNavy: {r: 0.06, g: 0.13, b: 0.28, a: 1}
+  uiOrange: {r: 1, g: 0.76, b: 0.22, a: 1}
+  uiButton: {r: 0.12, g: 0.38, b: 0.76, a: 1}
+  uiBackgroundTop: {r: 0.18, g: 0.48, b: 0.82, a: 1}
+  uiBackgroundBottom: {r: 0.06, g: 0.22, b: 0.49, a: 1}
+  uiSurface: {r: 0.075, g: 0.2, b: 0.4, a: 0.96}
+  uiSurfaceBright: {r: 0.13, g: 0.32, b: 0.56, a: 1}
+  uiPrimary: {r: 1, g: 0.72, b: 0.22, a: 1}
+  uiSecondary: {r: 0.59, g: 0.37, b: 0.96, a: 1}
+  uiTextPrimary: {r: 0.965, g: 0.985, b: 1, a: 1}
+  uiTextMuted: {r: 0.78, g: 0.88, b: 1, a: 1}
+  uiSuccess: {r: 0.4, g: 1, b: 0.74, a: 1}
+  uiDanger: {r: 1, g: 0.35, b: 0.4, a: 1}
+  uiGlow: {r: 0.36, g: 0.88, b: 1, a: 1}
+  uiButtonGradientsEnabled: 1
+  uiButtonGradientBottom: {r: 0.07, g: 0.28, b: 0.65, a: 1}
+  uiButtonGradientTop: {r: 0.19, g: 0.52, b: 0.9, a: 1}
+  uiButtonBorder: {r: 0.65, g: 0.86, b: 1, a: 0.9}
+  uiPrimaryGradientBottom: {r: 1, g: 0.52, b: 0.08, a: 1}
+  uiPrimaryGradientTop: {r: 1, g: 0.84, b: 0.34, a: 1}
+  uiPrimaryBorder: {r: 1, g: 0.94, b: 0.68, a: 1}
+  uiRewardGradientBottom: {r: 0.35, g: 0.22, b: 0.76, a: 1}
+  uiRewardGradientTop: {r: 0.66, g: 0.47, b: 1, a: 1}
+  uiRewardBorder: {r: 0.88, g: 0.8, b: 1, a: 1}
+  uiDangerGradientBottom: {r: 0.72, g: 0.16, b: 0.25, a: 1}
+  uiDangerGradientTop: {r: 1, g: 0.42, b: 0.45, a: 1}
+  uiDangerBorder: {r: 1, g: 0.8, b: 0.78, a: 1}
+  uiButtonGradientHighlight: {r: 1, g: 1, b: 1, a: 1}
+  uiButtonGradientHighlightStrength: 0.08

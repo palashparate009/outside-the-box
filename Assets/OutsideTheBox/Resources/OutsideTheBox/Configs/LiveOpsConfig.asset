@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8f53c51c044c9b83f7a0f6c1e8532d, type: 3}
+  m_Name: LiveOpsConfig
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.LiveOpsConfigAsset
+  values:
+    version: 13
+    timersEnabled: 1
+    baseLevelSeconds: 32
+    chapterLevelSeconds:
+    - 40
+    - 45
+    - 50
+    - 55
+    - 60
+    - 65
+    - 70
+    secondsPerSolutionBeat: 4.5
+    minimumLevelSeconds: 45
+    maximumLevelSeconds: 180
+    reviveSeconds: 30
+    maxRevivesPerLevel: 2
+    energyTargetMultiplier: 1
+    chapterEnergyTargetMultipliers:
+    - 1
+    - 0.45
+    - 0.42
+    - 0.4
+    - 0.39
+    - 0.38
+    - 0.36
+    pushEnergyMultiplier: 1.35
+    minimumEnergyTarget: 20
+    minimumLaterChapterEnergyTarget: 12
+    energyFailureEnabled: 1
+    energyFailureMultiplier: 1.6
+    energyRevivePercent: 0.4
+    startingCoins: 150
+    coinReviveCost: 50
+    campaignCompletionCoins: 2
+    coinsPerNewStar: 1
+    dailyCompletionCoins: 8
+    endlessCompletionCoins: 3
+    rewardedCoinAmount: 10
+    gemPurchasesEnabled: 1
+    gemPacks:
+    - productId: otb_gems_50
+      name: POCKET GEMS
+      gems: 50
+      fallbackPrice: INR 10
+    - productId: otb_gems_150
+      name: GEM POUCH
+      gems: 150
+      fallbackPrice: INR 29
+    - productId: otb_gems_500
+      name: GEM CHEST
+      gems: 500
+      fallbackPrice: INR 89
+    - productId: otb_gems_1000
+      name: GEM VAULT
+      gems: 1000
+      fallbackPrice: INR 169
+    - productId: otb_gems_1500
+      name: GEM TREASURY
+      gems: 1500
+      fallbackPrice: INR 229
+    - productId: otb_gems_3000
+      name: GEM HOARD
+      gems: 3000
+      fallbackPrice: INR 399
+    cosmeticGemPrices: 00000000640000007800000082000000000000000000000000000000000000000000000000000000
+    cosmeticRewardedViews: 1
+    chapterGiftsEnabled: 1
+    chapterGiftColors:
+    - '#A8C4D4'
+    - '#B3C7B0'
+    - '#D1BDA8'
+    - '#C2B3D1'
+    - '#A6C7C4'
+    - '#D1C7A3'
+    localNotificationsEnabled: 1
+    firebasePushEnabled: 1
+    firebasePushTopic: otb_updates
+    firebasePushLogTokenInDevelopment: 1
+    giftReminderHours: 24
+    gameReminderHours: 24
+    giftReminderMessage: Your chapter gift is waiting. Open the store to claim it!
+    gameReminderMessage: Ready for another magnetic puzzle? Your next level is waiting.
+    chapterGiftsEnabled: 1
+    localNotificationsEnabled: 1
+    giftReminderHours: 24
+    gameReminderHours: 24
+    giftReminderMessage: Your chapter gift is waiting. Open the store to claim it!
+    gameReminderMessage: Ready for another magnetic puzzle? Your next level is waiting.
+    gameReminderMessages:
+    - "A fresh perspective can unlock a new path. Ready for your next puzzle?"
+    - "Small moves can lead to big discoveries. Try one more magnetic puzzle."
+    - "Take a little puzzle break. Your next challenge is waiting."
+    - "Every great solution starts with a little curiosity. Follow yours today."
+    - "Stuck yesterday? A fresh look might reveal the way today."
+    - "Think outside the box. Your next clever move is waiting."
+    - "One puzzle, one bright idea. See what you can discover today."
+    - "A new angle can change everything. Find your next path."
+    - "Make a little time for curiosity. Come back for a magnetic challenge."
+    - "The next breakthrough could be one move away. Give it a try."
+    - "Pause the busy day and play with a new possibility."
+    - "You bring the ideas. We bring the puzzles. Ready to play?"
+    - "A little patience. A clever move. A satisfying finish. Your next puzzle awaits."
+    - "Keep exploring. There is always another way to think outside the box."
+    cosmeticRarities: 00000000000000000100000001000000010000000200000002000000020000000300000003000000
+    cosmeticRarityColors:
+    - '#B8CFDF'
+    - '#55CCFF'
+    - '#C68AFF'
+    - '#FFD166'
+    cosmeticArtworkResource: OutsideTheBox/Art/Cosmetics/CosmeticAtlas
+    storeRevealSeconds: 0.28
+    storeRevealStagger: 0.035
+    storePreviewMotionAmount: 0.035
+    storePreviewMotionSpeed: 1.2
+    cosmeticIapProductIds:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - otb_ball_skin_04
+    - otb_ball_skin_05
+    - otb_ball_skin_06
+    - otb_ball_skin_07
+    - otb_ball_skin_08
+    - otb_ball_skin_09
+    - 
+    - 
+    - 
+    - 
+    - otb_magnet_skin_04
+    - otb_magnet_skin_05
+    - otb_magnet_skin_06
+    - otb_magnet_skin_07
+    - otb_magnet_skin_08
+    - otb_magnet_skin_09
+    - 
+    - 
+    - 
+    - 
+    - otb_hole_skin_04
+    - otb_hole_skin_05
+    - otb_hole_skin_06
+    - otb_hole_skin_07
+    - otb_hole_skin_08
+    - otb_hole_skin_09
+    - 
+    - 
+    - 
+    - 
+    - otb_walls_skin_04
+    - otb_walls_skin_05
+    - otb_walls_skin_06
+    - otb_walls_skin_07
+    - otb_walls_skin_08
+    - otb_walls_skin_09
+    - 
+    - 
+    - 
+    - 
+    - otb_glass_skin_04
+    - otb_glass_skin_05
+    - otb_glass_skin_06
+    - otb_glass_skin_07
+    - otb_glass_skin_08
+    - otb_glass_skin_09
+    - 
+    - 
+    - 
+    - 
+    - otb_background_skin_04
+    - otb_background_skin_05
+    - otb_background_skin_06
+    - otb_background_skin_07
+    - otb_background_skin_08
+    - otb_background_skin_09
+    cosmeticIapFallbackPrices:
+    - 
+    - 
+    - 
+    - 
+    - INR 29
+    - INR 39
+    - INR 49
+    - INR 59
+    - INR 79
+    - INR 99
+    signatureMechanicsEnabled: 1
+    echoMagnetEnabled: 1
+    echoRecordSeconds: 3
+    echoSampleRate: 20
+    echoMaximumSamples: 96
+    echoStrengthMultiplier: 0.62
+    echoLoopDelay: 0.2
+    echoEnergyMultiplier: 0.45
+    ferrofluidMemoryEnabled: 1
+    ferrofluidMaximumPoints: 72
+    ferrofluidPointSpacing: 0.16
+    ferrofluidGuidanceStrength: 0.8
+    magneticImprintsEnabled: 1
+    magneticImprintDuration: 4
+    magneticImprintStrength: 5
+    magneticImprintActivationRadius: 0.7
+    fieldLensesEnabled: 1
+    fieldLensDirectionBlend: 1
+    polarityLocksEnabled: 1
+    orbitGoalsEnabled: 1
+    orbitGoalRadiusMultiplier: 2.5
+    orbitGoalMinimumSpeed: 0.35
+    imprintPulseSpeed: 9
+    fieldLensRotationSpeed: 22
+    orbitGoalPulseSpeed: 4
+    orbitGoalPulseAmount: 0.035
+    orbitGoalRotationSpeed: 35
+    ftueEnabled: 1
+    ftueLevelCount: 2
+    ftueTooltipSeconds: 4.5
+    uiAnimationSeconds: 0.28
+    timerMilestoneSeconds: 30
+    timerWarningSeconds: 10
+    energyWarningFraction: 0.8
+    hudPulseSeconds: 0.55
+    hudPulseScale: 0.2
+    uiPopupStartScale: 0.88
+    uiButtonPressScale: 0.94
+    uiButtonSpringFrequency: 18
+    uiButtonSpringDamping: 0.72
+    uiButtonHoverAmount: 0
+    uiButtonHoverSpeed: 0.65
+    uiAmbientPulseSpeed: 1.2
+    uiStaggerSeconds: 0.045
+    uiRevealOffset: 34
+    uiBackdropMotionSpeed: 1
+    uiScreenSlideDistance: 88
+    uiScreenStartScale: 0.975
+    uiScreenOvershoot: 0.06
+    onlineRequired: 1
+    connectionCheckSeconds: 6
+    connectionRetrySeconds: 3
+    connectionTimeoutSeconds: 4
+    connectionFailureThreshold: 2
+    connectionCheckUrl: https://www.gstatic.com/generate_204
+    connectionFallbackUrl: https://connectivitycheck.gstatic.com/generate_204
+    loadingMinimumSeconds: 0.35
+    loadingFadeSeconds: 0.16
+    loadingStartupMessage: SYNCING PLAYER DATA
+    loadingLevelMessage: BUILDING LEVEL
+    loadingMenuMessage: RETURNING TO MENU
+    mainMenuTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    gameplayTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    chapterSelectTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    levelSelectTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    settingsTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    winTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    timeoutTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    pauseTransition:
+      style: ScaleFade
+      enterDirection: None
+      exitDirection: None
+      enterEasing: EaseOutBack
+      exitEasing: EaseInCubic
+      duration: 0.28
+      exitDuration: 0.16
+      distance: 0
+      startScale: 0.88
+      exitScale: 0.94
+      animateOutgoing: 1
+    tutorialTransition:
+      style: ScaleFade
+      enterDirection: None
+      exitDirection: None
+      enterEasing: EaseOutBack
+      exitEasing: EaseInCubic
+      duration: 0.28
+      exitDuration: 0.16
+      distance: 0
+      startScale: 0.88
+      exitScale: 0.94
+      animateOutgoing: 1
+    signInTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    accountTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    leaderboardTransition:
+      style: SlideFadeScale
+      enterDirection: Right
+      exitDirection: Left
+      enterEasing: EaseOutCubic
+      exitEasing: SmoothStep
+      duration: 0.34
+      exitDuration: 0.187
+      distance: 220
+      startScale: 0.975
+      exitScale: 0.97
+      animateOutgoing: 1
+    mobileAdaptivePerformanceEnabled: 1
+    mobileBatteryFrameRate: 30
+    mobileBalancedFrameRate: 60
+    mobileSmoothFrameRate: 60
+    mobilePhysicsTickRate: 60
+    mobileLowMemoryThresholdMb: 3072
+    mobileHighMemoryThresholdMb: 6144
+    mobileLowGpuMemoryThresholdMb: 768
+    mobileHighGpuMemoryThresholdMb: 2048
+    mobileLowProcessorCount: 4
+    mobileHighProcessorCount: 8
+    mobileLowEndRenderScale: 0.72
+    mobileBalancedRenderScale: 0.88
+    mobileHighEndRenderScale: 1
+    mobileMinimumRenderScale: 0.65
+    mobileRenderScaleStep: 0.08
+    mobilePerformanceSampleSeconds: 4
+    mobileSlowFrameThreshold: 0.82
+    mobileRecoveryFrameThreshold: 0.96
+    mobileSlowSampleCount: 3
+    mobileRecoverySampleCount: 8
+    mobileLowQualityLevel: 0
+    mobileBalancedQualityLevel: 1
+    mobileHighQualityLevel: 2
+    analyticsEnabled: 1
+    adsEnabled: 1
+    simulateAdsInEditor: 1
+    interstitialEveryCompletions: 2
+    interstitialMinimumSeconds: 0
+    bannerEnabled: 1
+    bannerUseAdaptiveSize: 0
+    bannerRespectSafeArea: 1
+    bannerLayoutPaddingDp: 4
+    bannerPosition: BottomCenter
+    bannerPlacement: global_banner
+    adLoadRetrySeconds: 8
+    childDirected: 0
+    doNotSellPersonalInformation: 0
+    levelPlayAdapterDebug: 0
+    validateLevelPlayIntegrationInDevelopment: 1
+    levelPlayAppKey: 287e41f2d
+    rewardedAdUnitId: mi265bamv9sd3y9k
+    interstitialAdUnitId: tknyyycp6t3x64r4
+    bannerAdUnitId: xleippljsk902w4m
+    revivePlacement: level_revive
+    energyRevivePlacement: energy_revive
+    currencyPlacement: free_gems
+    interstitialPlacement: level_complete
+    firebaseRemoteConfigEnabled: 1
+    remoteConfigJsonKey: game_config_json
+    remoteFetchMinutes: 60
+    remoteFetchTimeoutSeconds: 12
+    googlePlayGamesEnabled: 1
+    editorGooglePlayTestLoginEnabled: 1
+    unityServicesEnabled: 1
+    guestSignInEnabled: 1
+    usernamePasswordEnabled: 1
+    guestAccountUpgradeEnabled: 1
+    usernameMinLength: 3
+    usernameMaxLength: 20
+    passwordMinLength: 8
+    passwordMaxLength: 30
+    cloudProgressEnabled: 1
+    unityLeaderboardsEnabled: 1
+    cloudProgressKey: player_progress_v1
+    leaderboardTimeWeight: 0.7
+    leaderboardEnergyWeight: 0.3
+    threeStarPerformanceThreshold: 0.65
+    twoStarPerformanceThreshold: 0.35
+    leaderboardEnergyRangeMultiplier: 2
+    leaderboardHintPenalty: 0.1
+    leaderboardRevivePenalty: 0.15
+    leaderboardCompletionPoints: 100000
+    leaderboardPerformanceBonusPoints: 1000
+    allTimeLeaderboardId: all_time_performance
+    chapterLeaderboardIds:
+    - chapter_01_performance
+    - chapter_02_performance
+    - chapter_03_performance
+    - chapter_04_performance
+    - chapter_05_performance
+    - chapter_06_performance
+    campaignLeaderboardId: campaign_stars
+    endlessLeaderboardId: endless_depth

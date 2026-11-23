@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50b1174c40081549ac36a4f54954e01, type: 3}
+  m_Name: Strings_en
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.GameStrings
+  languageCode: en
+  languageName: English
+  play: PLAY
+  mainMenu: MAIN MENU
+  chapters: CHAPTERS
+  levels: LEVELS
+  energy: ENERGY
+  time: TIME
+  coins: GEMS
+  timeUp: TIME'S UP
+  freeCoins: FREE GEMS
+  watchAd: WATCH AD TO CONTINUE
+  useCoins: USE GEMS
+  googlePlay: GOOGLE PLAY
+  signInTitle: CHOOSE HOW YOU WANT TO SAVE YOUR JOURNEY
+  signInGooglePlay: SIGN IN WITH GOOGLE PLAY
+  unityCloud: GUEST SIGN IN
+  continueAsGuest: CONTINUE AS GUEST
+  usernamePassword: USERNAME & PASSWORD
+  account: ACCOUNT
+  secureAccount: SECURE ACCOUNT
+  accountTitle: UNITY CLOUD ACCOUNT
+  accountBody: Create a Unity Cloud account or sign in to your existing one.
+  usernamePlaceholder: USERNAME
+  passwordPlaceholder: PASSWORD
+  confirmPasswordPlaceholder: CONFIRM PASSWORD
+  signInUsername: SIGN IN
+  createAccount: CREATE ACCOUNT
+  accountRules: 'Username: 3-20 characters. Password: upper, lower, number and symbol.'
+  signInStatus: SIGN IN TO SYNC PROGRESS ACROSS DEVICES
+  guestWarning: GUEST SIGN-IN USES A UNIQUE UNITY CLOUD USERNAME AND PASSWORD.
+  connectingGoogle: CONNECTING GOOGLE PLAY GAMES...
+  connectingGuest: CREATING SECURE GUEST PROFILE...
+  connectingCloud: CONNECTING TO CLOUD SAVE...
+  leaderboard: LEADERBOARD
+  endless: ENDLESS VAULT
+  dailyChallenge: DAILY CHALLENGE
+  best: BEST
+  undo: UNDO
+  restart: RESTART
+  hint: HINT
+  pull: PULL
+  push: PUSH
+  next: NEXT LEVEL
+  replay: REPLAY
+  settings: SETTINGS
+  paused: PAUSED
+  resume: RESUME
+  music: MUSIC
+  sound: SOUND
+  vibration: VIBRATION
+  reduceMotion: REDUCE MOTION
+  colorBlind: COLOR-BLIND SYMBOLS
+  largeText: LARGE TEXT
+  performance: PERFORMANCE
+  automatic: AUTO
+  batterySaver: BATTERY SAVER
+  smooth: SMOOTH
+  ballStyle: BALL STYLE
+  magnetStyle: MAGNET STYLE
+  privacy: PRIVACY
+  completed: LEVEL COMPLETE
+  locked: LOCKED
+  on: ON
+  off: OFF
+  noHints: No free hints remaining

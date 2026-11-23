@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a7c11e713240f4aa7f68625b83332a, type: 3}
+  m_Name: Level_038
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.LevelDefinition
+  levelId: level_038
+  levelNumber: 38
+  generatorSeed: 111126
+  generatedContentVersion: 7
+  width: 8
+  height: 8
+  start:
+    x: 2
+    y: 7
+  exit:
+    x: 4
+    y: 0
+  useCustomStartingMagnet: 1
+  startingMagnet:
+    side: 0
+    index: 2
+  walls:
+  - x: 0
+    y: 1
+  - x: 1
+    y: 1
+  - x: 2
+    y: 1
+  - x: 5
+    y: 2
+  - x: 6
+    y: 2
+  - x: 7
+    y: 2
+  - x: 1
+    y: 5
+  - x: 2
+    y: 5
+  - x: 4
+    y: 2
+  - x: 4
+    y: 3
+  - x: 4
+    y: 4
+  - x: 1
+    y: 3
+  - x: 1
+    y: 4
+  - x: 2
+    y: 3
+  - x: 3
+    y: 3
+  - x: 5
+    y: 6
+  - x: 3
+    y: 6
+  - x: 4
+    y: 6
+  wallSegments: []
+  gates:
+  - cell:
+      x: 2
+      y: 6
+    allowedEntryDirection: 2
+  - cell:
+      x: 1
+      y: 6
+    allowedEntryDirection: 3
+  movingWalls:
+  - center: {x: -2.5, y: -1.5}
+    length: 0.82
+    horizontal: 1
+    travel: {x: 0, y: 0.28}
+    speed: 1.1938574
+    phase: 5.538659
+  - center: {x: 0.5, y: -2.5}
+    length: 0.82
+    horizontal: 1
+    travel: {x: 0, y: 0.28}
+    speed: 0.9071372
+    phase: 6.2342334
+  fieldZones: []
+  magneticImprints: []
+  fieldLenses: []
+  polarityLocks: []
+  echoMagnetEnabled: 1
+  ferrofluidMemoryEnabled: 1
+  orbitGoalEnabled: 0
+  orbitGoalTurns: 1
+  useNormalPhysics: 0
+  pushUnlocked: 1
+  targetMoves: 13
+  targetEnergy: 156
+  isEndless: 0
+  endlessIndex: 0
+  isDailyChallenge: 0
+  dailyKey: 
+  tutorialPrompt: 
+  verifiedSolution:
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 3
+    mode: 0
+  - magnet:
+      side: 0
+      index: 4
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 1
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 0
+      index: 7
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 1
+  - magnet:
+      side: 0
+      index: 7
+    mode: 1

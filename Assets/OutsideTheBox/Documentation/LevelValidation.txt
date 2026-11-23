@@ -1,0 +1,65 @@
+OUTSIDE THE BOX - GENERATED LEVEL VALIDATION
+Generated: 2026-11-11T10:23:48.9381714Z
+Total levels: 60
+
+Level | Size | Wall cells | Visible groups | Gates | Push | Shortest beats | Visited states | Status
+01 | 5x5 | 4 | 2 | 0 | False | 8 | 235 | PASS
+02 | 5x5 | 4 | 2 | 0 | False | 8 | 191 | PASS
+03 | 5x5 | 4 | 2 | 0 | False | 6 | 184 | PASS
+04 | 5x5 | 4 | 2 | 0 | False | 8 | 163 | PASS
+05 | 5x5 | 4 | 2 | 0 | False | 6 | 214 | PASS
+06 | 5x5 | 4 | 2 | 0 | False | 9 | 242 | PASS
+07 | 5x5 | 4 | 2 | 0 | False | 8 | 233 | PASS
+08 | 5x5 | 4 | 3 | 0 | False | 7 | 166 | PASS
+09 | 5x5 | 4 | 3 | 0 | False | 8 | 223 | PASS
+10 | 5x5 | 4 | 2 | 0 | False | 8 | 261 | PASS
+11 | 6x6 | 6 | 3 | 0 | False | 8 | 335 | PASS
+12 | 6x6 | 6 | 4 | 0 | False | 9 | 342 | PASS
+13 | 6x6 | 6 | 3 | 0 | False | 13 | 442 | PASS
+14 | 6x6 | 7 | 3 | 0 | False | 12 | 289 | PASS
+15 | 6x6 | 7 | 3 | 0 | False | 10 | 400 | PASS
+16 | 6x6 | 7 | 3 | 0 | False | 8 | 315 | PASS
+17 | 6x6 | 7 | 4 | 0 | False | 8 | 314 | PASS
+18 | 6x6 | 7 | 3 | 0 | False | 11 | 439 | PASS
+19 | 6x6 | 8 | 3 | 0 | False | 12 | 353 | PASS
+20 | 6x6 | 8 | 3 | 0 | False | 12 | 397 | PASS
+21 | 7x7 | 10 | 4 | 0 | True | 11 | 1228 | PASS
+22 | 7x7 | 11 | 5 | 0 | True | 10 | 815 | PASS
+23 | 7x7 | 10 | 6 | 0 | True | 11 | 497 | PASS
+24 | 7x7 | 11 | 5 | 0 | True | 11 | 995 | PASS
+25 | 7x7 | 12 | 5 | 0 | True | 15 | 1050 | PASS
+26 | 7x7 | 12 | 5 | 0 | True | 12 | 1186 | PASS
+27 | 7x7 | 12 | 6 | 0 | True | 14 | 1198 | PASS
+28 | 7x7 | 13 | 7 | 0 | True | 13 | 864 | PASS
+29 | 7x7 | 12 | 5 | 0 | True | 12 | 1164 | PASS
+30 | 7x7 | 13 | 7 | 0 | True | 14 | 975 | PASS
+31 | 8x8 | 16 | 8 | 2 | True | 14 | 1738 | PASS
+32 | 8x8 | 15 | 6 | 2 | True | 11 | 725 | PASS
+33 | 8x8 | 16 | 8 | 2 | True | 21 | 1794 | PASS
+34 | 8x8 | 16 | 8 | 2 | True | 13 | 1600 | PASS
+35 | 8x8 | 18 | 8 | 2 | True | 16 | 1468 | PASS
+36 | 8x8 | 18 | 8 | 2 | True | 14 | 1186 | PASS
+37 | 8x8 | 18 | 8 | 2 | True | 15 | 1463 | PASS
+38 | 8x8 | 18 | 7 | 2 | True | 13 | 1250 | PASS
+39 | 8x8 | 20 | 8 | 2 | True | 17 | 1299 | PASS
+40 | 8x8 | 19 | 6 | 2 | True | 14 | 1196 | PASS
+41 | 9x9 | 22 | 9 | 0 | True | 13 | 2400 | PASS
+42 | 9x9 | 24 | 13 | 0 | True | 16 | 1906 | PASS
+43 | 9x9 | 25 | 11 | 0 | True | 21 | 1515 | PASS
+44 | 9x9 | 25 | 12 | 0 | True | 15 | 1782 | PASS
+45 | 9x9 | 26 | 10 | 0 | True | 15 | 2162 | PASS
+46 | 9x9 | 26 | 13 | 0 | True | 16 | 1959 | PASS
+47 | 9x9 | 27 | 11 | 0 | True | 14 | 2142 | PASS
+48 | 9x9 | 28 | 11 | 0 | True | 18 | 2015 | PASS
+49 | 9x9 | 28 | 14 | 0 | True | 21 | 2125 | PASS
+50 | 9x9 | 28 | 9 | 0 | True | 22 | 2133 | PASS
+51 | 10x10 | 31 | 15 | 4 | True | 19 | 2704 | PASS
+52 | 10x10 | 31 | 11 | 4 | True | 19 | 3170 | PASS
+53 | 10x10 | 32 | 12 | 4 | True | 16 | 2706 | PASS
+54 | 10x10 | 33 | 12 | 4 | True | 19 | 2800 | PASS
+55 | 10x10 | 33 | 12 | 4 | True | 21 | 2750 | PASS
+56 | 10x10 | 35 | 11 | 4 | True | 28 | 2581 | PASS
+57 | 10x10 | 36 | 13 | 4 | True | 17 | 1697 | PASS
+58 | 10x10 | 36 | 16 | 4 | True | 19 | 2543 | PASS
+59 | 10x10 | 36 | 15 | 4 | True | 20 | 2225 | PASS
+60 | 10x10 | 35 | 15 | 4 | True | 19 | 2365 | PASS

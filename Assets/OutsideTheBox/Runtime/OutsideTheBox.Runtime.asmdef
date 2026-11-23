@@ -1,0 +1,32 @@
+{
+  "name": "OutsideTheBox.Runtime",
+  "rootNamespace": "OutsideTheBox",
+  "references": [
+    "Unity.ugui",
+    "Unity.TextMeshPro",
+    "Unity.InputSystem",
+    "Unity.Services.Core",
+    "Unity.Services.Core.Environments",
+    "Unity.Services.Authentication",
+    "Unity.Services.CloudSave",
+    "Unity.Services.Leaderboards",
+    "Unity.LevelPlay",
+    "Google.Play.Games",
+    "Unity.Purchasing"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "com.unity.purchasing",
+      "expression": "5.5.0",
+      "define": "OUTSIDE_THE_BOX_UNITY_IAP"
+    }
+  ],
+  "noEngineReferences": false
+}

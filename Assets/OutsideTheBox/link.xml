@@ -1,0 +1,13 @@
+<linker>
+  <assembly fullname="Unity.LevelPlay" preserve="all" />
+  <assembly fullname="Google.Play.Games" preserve="all" />
+  <assembly fullname="Firebase.App" preserve="all" ignoreIfMissing="1" />
+  <assembly fullname="Firebase.Analytics" preserve="all" ignoreIfMissing="1" />
+  <assembly fullname="Firebase.RemoteConfig" preserve="all" ignoreIfMissing="1" />
+  <assembly fullname="OutsideTheBox.Runtime">
+    <type fullname="OutsideTheBox.GoogleUmpConsent/ConsentInfoSuccessProxy" preserve="all" />
+    <type fullname="OutsideTheBox.GoogleUmpConsent/ConsentInfoFailureProxy" preserve="all" />
+    <type fullname="OutsideTheBox.GoogleUmpConsent/ConsentFormDismissedProxy" preserve="all" />
+    <type fullname="OutsideTheBox.GoogleUmpConsent/PrivacyFormDismissedProxy" preserve="all" />
+  </assembly>
+</linker>

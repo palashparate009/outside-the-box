@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a7c11e713240f4aa7f68625b83332a, type: 3}
+  m_Name: Level_041
+  m_EditorClassIdentifier: OutsideTheBox.Runtime::OutsideTheBox.LevelDefinition
+  levelId: level_041
+  levelNumber: 41
+  generatorSeed: 114057
+  generatedContentVersion: 7
+  width: 9
+  height: 9
+  start:
+    x: 2
+    y: 8
+  exit:
+    x: 0
+    y: 1
+  useCustomStartingMagnet: 1
+  startingMagnet:
+    side: 1
+    index: 6
+  walls:
+  - x: 6
+    y: 6
+  - x: 7
+    y: 6
+  - x: 2
+    y: 5
+  - x: 2
+    y: 6
+  - x: 2
+    y: 7
+  - x: 7
+    y: 3
+  - x: 8
+    y: 3
+  - x: 6
+    y: 1
+  - x: 7
+    y: 1
+  - x: 0
+    y: 5
+  - x: 0
+    y: 6
+  - x: 1
+    y: 2
+  - x: 1
+    y: 1
+  - x: 3
+    y: 4
+  - x: 3
+    y: 3
+  - x: 4
+    y: 4
+  - x: 5
+    y: 4
+  - x: 0
+    y: 2
+  - x: 0
+    y: 3
+  - x: 0
+    y: 4
+  - x: 4
+    y: 1
+  - x: 5
+    y: 1
+  wallSegments: []
+  gates: []
+  movingWalls: []
+  fieldZones:
+  - center: {x: -2, y: -1}
+    radius: 0.72
+    strengthMultiplier: 0.48
+  - center: {x: -3, y: 1}
+    radius: 0.72
+    strengthMultiplier: 1.38
+  - center: {x: -3, y: 2}
+    radius: 0.72
+    strengthMultiplier: 0.48
+  magneticImprints:
+  - center: {x: -2, y: 1}
+    polarity: 0
+  - center: {x: -3, y: -3}
+    polarity: 1
+  fieldLenses: []
+  polarityLocks: []
+  echoMagnetEnabled: 1
+  ferrofluidMemoryEnabled: 0
+  orbitGoalEnabled: 0
+  orbitGoalTurns: 1
+  useNormalPhysics: 0
+  pushUnlocked: 1
+  targetMoves: 13
+  targetEnergy: 169
+  isEndless: 0
+  endlessIndex: 0
+  isDailyChallenge: 0
+  dailyKey: 
+  tutorialPrompt: Colored zones alter magnetic strength
+  verifiedSolution:
+  - magnet:
+      side: 0
+      index: 5
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 1
+    mode: 1
+  - magnet:
+      side: 0
+      index: 7
+    mode: 1
+  - magnet:
+      side: 0
+      index: 6
+    mode: 1
+  - magnet:
+      side: 0
+      index: 5
+    mode: 1
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 0
+    mode: 0
+  - magnet:
+      side: 0
+      index: 2
+    mode: 0
